@@ -11,7 +11,7 @@ pip install -r requirements.txt
 ```
 ## Data Download and Preparation
 
-You can obtain the official competition data from the Kaggle website. After downloading, please move the data to the `data` directory. We also recommend to dowlad external data that can be found [here](https://www.kaggle.com/datasets/iafoss/identify-contrails-external)
+You can obtain the official competition data from the Kaggle website. After downloading, please move the data to the `data` directory. We also recommend to download external data that can be found [here](https://www.kaggle.com/datasets/iafoss/identify-contrails-external)
 
 ### Preparing the Data
 To process the data, execute the following command:
