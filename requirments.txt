@@ -1,0 +1,12 @@
+torch==1.11.0+cu115
+fastai==2.7.10
+fastcore==1.5.27
+timm==0.6.12
+fastxtend==0.0.14
+kornia==0.5.8
+pandas==1.3.5
+segmentation-models-pytorch
+mmcv
+opencv-python
+albumentations
+
