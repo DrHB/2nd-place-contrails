@@ -4,10 +4,11 @@ This repository contains the source code for the 2nd place solution in the Kaggl
 
 
 # Installation
-We recommend using the official `nvidia` `or` kaggle Docker images with the appropriate CUDA version for the best compatibility. 
+We recommend using the official `nvidia` or `kaggle` Docker images with the appropriate CUDA version for the best compatibility. Alternativly clone the repository and install the dependencies listed in `requirements.txt` using the following command:
 
-
-
+```bash
+pip install -r requirements.txt
+```
 ## Data Download and Preparation
 
 You can obtain the official competition data from the Kaggle website. After downloading, please move the data to the `data` directory. We also recommend to dowlad external data that can be found [here](https://www.kaggle.com/datasets/iafoss/identify-contrails-external)
