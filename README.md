@@ -1,6 +1,6 @@
 # 2nd - Place Solution Team DIT
 
-This repository contains the source code for the 2nd place solution in the Kaggle `Google Research - Identify Contrails to Reduce Global Warming` developed by `DrHB`, `Iafoss` and `Theo Viel`. For more technical write up read [here](https://www.kaggle.com/competitions/google-research-identify-contrails-reduce-global-warming/discussion/430491). To reproduce our results, please follow the instructions provided below.
+This repository contains the source code for the 2nd place solution in the Kaggle `Google Research - Identify Contrails to Reduce Global Warming` developed by `DrHB`, `Iafoss` and `Theo Viel` [here] (https://github.com/TheoViel/kaggle_contrails). For more technical write up read [here](https://www.kaggle.com/competitions/google-research-identify-contrails-reduce-global-warming/discussion/430491). To reproduce our results, please follow the instructions provided below.
 
 
 # Installation
