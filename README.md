@@ -148,6 +148,26 @@ train.py config.json \
 
 
 
-## Inference 
+## Inference
 
 Our inference scripts, models, and kernels are publicly available and can be found [here](https://www.kaggle.com/code/theoviel/contrails-inference-comb?scriptVersionId=139316588)
+
+## Links
+
+- [Competition Discussion](https://www.kaggle.com/competitions/google-research-identify-contrails-reduce-global-warming/discussion/430491)
+- [Theo Viel's Repository](https://github.com/TheoViel/kaggle_contrails)
+- [Google Research - Contrails](https://sites.research.google/gr/contrails/)
+
+## Keywords
+
+`contrail-detection` `satellite-imagery` `semantic-segmentation` `climate-change` `deep-learning` `pytorch` `vision-transformer` `coat` `nextvit` `sam`
+
+---
+
+<div align="center">
+
+**Star this repo if you find it useful!**
+
+*Questions? Open an issue or reach out.*
+
+</div>
