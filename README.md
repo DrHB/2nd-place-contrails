@@ -9,8 +9,6 @@
 
 **Multi-encoder segmentation models for detecting aircraft contrails in GOES-16 satellite data**
 
-*Habib Bukhari, Iafoss & [Theo Viel](https://github.com/TheoViel/kaggle_contrails)*
-
 </div>
 
 ---
