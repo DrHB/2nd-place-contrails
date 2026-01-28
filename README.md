@@ -1,9 +1,34 @@
-# 2nd - Place Solution Team DIT
+<div align="center">
 
-This repository contains the source code for the 2nd place solution in the Kaggle `Google Research - Identify Contrails to Reduce Global Warming` developed by [DrHB](https://www.kaggle.com/drhabib) and [Iafoss](https://www.kaggle.com/iafoss), and `Theo Viel` [here](https://github.com/TheoViel/kaggle_contrails). For more technical write up read [here](https://www.kaggle.com/competitions/google-research-identify-contrails-reduce-global-warming/discussion/430491). To reproduce our results, please follow the instructions provided below.
+# Contrail Detection from Satellite Imagery
 
+### Semantic Segmentation for Climate Impact Reduction
 
-# Installation
+[![Google Research](https://img.shields.io/badge/Google%20Research-Contrails-4285F4?style=for-the-badge&logo=google)](https://sites.research.google/gr/contrails/)
+[![Kaggle](https://img.shields.io/badge/Kaggle-2nd%20Place-20BEFF?style=for-the-badge&logo=kaggle)](https://www.kaggle.com/competitions/google-research-identify-contrails-reduce-global-warming)
+
+**Multi-encoder segmentation models for detecting aircraft contrails in GOES-16 satellite data**
+
+*Habib Bukhari, Iafoss & [Theo Viel](https://github.com/TheoViel/kaggle_contrails)*
+
+</div>
+
+---
+
+## Problem
+
+Aircraft contrails (condensation trails) trap heat in the atmosphere, accounting for roughly 35% of aviation's total climate impact. Detecting contrails in satellite imagery enables airlines to adjust flight paths and reduce this warming effect.
+
+This solution uses multi-frame temporal models and vision transformers to segment contrails from GOES-16 geostationary satellite images, achieving 2nd place among 954 teams in the [Google Research competition](https://www.kaggle.com/competitions/google-research-identify-contrails-reduce-global-warming). See our [technical write-up](https://www.kaggle.com/competitions/google-research-identify-contrails-reduce-global-warming/discussion/430491) for details.
+
+## Technical Highlights
+
+- **Multi-Encoder Architecture**: CoaT, NeXtViT, and SAM-based segmentation models
+- **Temporal Modeling**: 5-frame LSTM sequences capture contrail evolution over time
+- **Lovasz Loss**: Directly optimizes IoU for better segmentation boundaries
+- **Ensemble Strategy**: Combines sequential and single-frame models for robust predictions
+
+## Installation
 We recommend using the official `nvidia` or `kaggle` Docker images with the appropriate CUDA version for the best compatibility. Alternativly clone the repository and install the dependencies listed in `requirements.txt` using the following command:
 
 ```bash
